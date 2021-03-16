@@ -1,9 +1,10 @@
-void setup() {
-  // put your setup code here, to run once:
+int secondPin = A1;
 
+void setup() {
+  pinMode(secondPin, OUTPUT);
+  
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-
+  analogWrite(secondPin, 255);
 }
